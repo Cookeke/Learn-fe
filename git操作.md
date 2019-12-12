@@ -138,10 +138,10 @@
 # 9. 参考资料
 
 - [git操作游戏] https://learngitbranching.js.org/ 
-
 - [Git 详细教程] https://juejin.im/entry/59b22efb6fb9a024a04b3726#_label3_2_3_4
 - [团队合作必备的Git操作] https://juejin.im/entry/5b4fda04f265da0fac1e0e53
 - [Git 常用操作总结] https://juejin.im/post/5a2cdfe26fb9a0452936b07f
+- https://juejin.im/post/5b5596eae51d4519520e7951
 
 
 
@@ -154,29 +154,17 @@
 # N.杂项
 
 - git commit：提交本地仓库
-
 - git branch：查看本地分支
-
 - git merge ：合并其他分支到本分支
-
 - git rebase ：合并本分支到其他分支
-
 - git checkout：切换HEAD到xxx
-
 - git checkout master^：切换到master上一个提交
-
 - git checkout HEAD~3：切换到HEAD上第三个提交
-
 - git branch -f master C3：强行指定master分支到c3提交
-
 - git reset HEAD~1：HEAD向上调整并将影响的提交存入缓冲区
-
 - git revert HEAD：撤销某次操作并向上回滚
-
 - git cherry-pick C2 C4：在HEAD后追加c2、c4提交
-
 - git rebase -i HEAD~4：调整HEAD前4个提交并追加到新的分支
-
 - git tag v1 C1：给c1标注v1
-
 - git checkout HEAD~^2~2：切换HEAD往第二个父分支向上调整两个
+- git reset --hard commit_id：回退到指定的提交记录
