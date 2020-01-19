@@ -102,7 +102,7 @@
 4. 查看本地分支：`git branch`
 5. 查看远程仓库所有分支：`git branch -a`
 6. 删除本地分支：`git branch -d test`:(删除本地test分支)
-7. 删除远程分支：`git branch -dr test`:(删除远程test分支)
+7. 删除远程分支：`git branch -dr remote/test`:(删除远程test分支)
 8. 分支合并：`git merge master`:(将master分支合并到当前分支)
 
 - **分支关联：**
