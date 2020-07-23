@@ -2,7 +2,7 @@
 
 - 使用Git下载指定分支命令为：`git clone -b 分支名 仓库地址`
 - 首次开发git操作流程
-  - 本地创建公钥`ssh-keygen -t rsa -C "邮箱`并配置
+  - 本地创建公钥`ssh-keygen -t rsa -C "邮箱"`并配置
   - 克隆项目`git clone`
   - 创建本地分支`git branch 分支名`
   - 查看本地分支`git branch`
@@ -13,10 +13,10 @@
 <img src="https://camo.githubusercontent.com/9ae53ba685e342dee7e0afb60468b8f83b6a99c0/687474703a2f2f7777772e7275616e796966656e672e636f6d2f626c6f67696d672f61737365742f323031352f6267323031353132303930312e706e67" alt="avatar" style="zoom:80%;" />
 
 - 知识点
-  1. **Remote:**远程主仓库；
-  2. **Repository：**本地仓库；
-  3. **Index：**Git追踪树,暂存区；
-  4. **workspace：**本地工作区(即你编辑器的代码)
+  1. **Remote:** 远程主仓库；
+  2. **Repository：** 本地仓库；
+  3. **Index：** Git追踪树,暂存区；
+  4. **workspace：** 本地工作区(即你编辑器的代码)
 
 - 一般操作流程：
   -  `git status`查看工作区状态
